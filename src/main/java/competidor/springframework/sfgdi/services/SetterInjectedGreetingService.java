@@ -4,10 +4,11 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public class GreetingServiceImpl implements GreetingService {
+public class SetterInjectedGreetingService implements GreetingService {
 
   @Override
   public String sayGreeting() {
-    return "Hello hello cosha pasha!!!!";
+    return "Hello world - Setter";
   }
+
 }
